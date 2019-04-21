@@ -48,6 +48,7 @@ public class TypeInferenceExample {
 				String.valueOf(inferenceExample.getLenth(message10)));
 	}
 
+	// can return var type as well
 	private int getLenth(String msg) {
 		var length = msg.length();
 		return length;
