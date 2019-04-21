@@ -46,6 +46,9 @@ public class TypeInferenceExample {
 
 		displayOnConsole.accept("Length of string '" + message10 + "' is: ",
 				String.valueOf(inferenceExample.getLenth(message10)));
+
+		String var = "var is not keyword";
+		displayOnConsole.accept("", var);
 	}
 
 	// can return var type as well
